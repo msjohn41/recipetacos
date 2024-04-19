@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Good Eats - Street Tacos</title>
+
+    <meta name="author" content="Michael Johnson">
+    <meta name="description" content="Street Taco Recipe Website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Street Tacos</h1>
+    </header>
+    <nav>
+        <h2>Main Navigation</h2>
+        <ul id="mainnav">
+            <li><a href="#Home"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 3h8l-1 9h-6z"></path>
+                <path d="M7 18h2v3h-2z"></path>
+                <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z"></path>
+                <path d="M20 15v6h-1v-3"></path>
+                <line x1="8" y1="12" x2="8" y2="18"></line>
+              </svg>Home</a></li>
+            <li><a href="Breakfast"><img src="images/breakfast.png" alt="breakfast photo">Breakfast</a></li>
+            <li><a href="Brunch"><img src="images/brunch.png" alt="brunch photo">Brunch</a></li>
+            <li><a href="Lunch"><img src="images/lunch.png" alt="lunch photo">Lunch</a></li>
+            <li><a href="Dinner"><img src="images/dinner.png" alt="dinner photo">Dinner</a></li>
+            <li><a href="Appetizers"><img src="images/appetizers.png" alt="appetizer photo">Appetizers</a></li>
+            <li><a href="Desserts"><img src="images/desserts.png" alt="dessert photo">Desserts</a></li>
+            <li><a href="Beverages"><img src="images/beverages.png" alt="beverages photo">Beverages</a></li>
+            <li><a href="#SignIn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="12" cy="12" r="9"></circle>
+                <circle cx="12" cy="10" r="3"></circle>
+                <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"></path>
+              </svg>Sign In</a></li>
+        </ul>
+
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q" />
+        <button>Search</button>
+
+        <h2>Connect</h2>
+        <ul id="socialmedia">
+            <li><a href="#Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+              </svg></a>Facebook</li>
+            <li><a href="#Instagram"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+              </svg></a>Instagram</li>
+            <li><a href="#YouTube"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                <path d="M10 9l5 3l-5 3z"></path>
+              </svg></a>YouTube</li>
+            <li><a href="TikTok"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
+              </svg></a>Tik Tok</li>
+        </ul>
+    </nav>
     
+    <main>
+        <section>
+            <h1>Street Tacos</h1>
+            <ul>
+                <li>Save</li>
+                <li>Share</li>
+                <li>Print</li>
+                <li>Jump to Recipe</li>
+            </ul>
+            <img src="images/street-tacos.png" alt="street tacos on plate">
+        </section>
+    </main>
 </body>
 </html>
