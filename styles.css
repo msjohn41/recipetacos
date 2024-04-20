@@ -47,3 +47,143 @@ table {
 }
 
 /* CSS START */
+
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
+
+body{
+    width: 414px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    font-family: 'Bebas Neue', 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+    visibility: hidden;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+nav a, nav span, menu li, footer, #social-media{
+    font-size: 20px;
+}
+
+p, dd, li, nav, input{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+dt{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* HEADER STYLES */
+
+header{
+    margin: auto;
+}
+
+header h1{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+/* MENU STYLES */
+
+menu{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+menu li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: #eb5428;
+}
+
+header img{
+    width: 100%;
+}
+
+header p{
+    padding: 10px;
+}
+
+/* DETAILS STYLES */
+
+#details h3{
+    padding: 10px;
+    text-align: center;
+}
+
+#details dl{
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+#details dd, dt{
+    display: block;
+    float: left;
+}
+#details dt{
+    padding-right: 10px;
+    clear: left;
+}
+
+/* INGREDIENTS-DIRECTIONS STYLES */
+
+#ingredients-directions{
+    clear: both;
+}
+
+#ingredients-directions h3{
+    padding: 10px;
+    text-align: center;
+}
+
+#ingredients-list{
+    padding-left: 25px;
+}
+
+#ingredients-list li{
+    list-style: disc;
+    line-height: 1.5em;
+}
+
+#directions-list{
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+#directions-list li{
+    list-style: decimal;
+    line-height: 1.5em;
+}
+
+/* ASIDE STYLES */
+
+#aside-h3{
+    background-color: #7abfbf;
+    text-align: center;
+    padding: 10px;
+}
+
+#side-dishes{
+    background-color: #7abfbf;
+}
