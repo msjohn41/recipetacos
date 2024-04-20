@@ -16,10 +16,7 @@
 <body>
     <header>
         <h1>Street Tacos</h1>
-    </header>
-
-    <main>
-        <section>
+        <menu>
             <ul>
                 <li><a href="#Save"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EB5428" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -49,14 +46,16 @@
                     <path d="M5 11v-6a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-9.5"></path>
                   </svg></a>Jump to Recipe</li>
             </ul>
+        </menu>
             <img src="images/street-tacos.png" alt="street tacos on plate">
             <p>
                 Street tacos are delicious, amazing, and oh so mouthwatering! Bite into tender steak, zesty lime flavor with a hint of spice and add on tomatoes, avocado, and onions for a savory bite you are going to love!
 
                 These street tacos are completely jam-packed with flavor and they are so easy to make. I love how the meat is so tender and juicy and only takes an hour to marinate! If you absolutely love tacos like me, try out these other amazing taco recipes! These taco-stuffed avocados, Baja fish tacos, and ground beef tacos will not disappoint!!
             </p>
-        </section>
+    </header>
 
+    <main>
         <section id="details">
             <h3>Details</h3>
                 <dl>
@@ -97,11 +96,12 @@
                     <li>Add toppings: Put the steak in the center of your tortilla with desired toppings.</li>
                 </ol>
         </section>
+    </main>
 
-        <section id="side-dishes">
-            <h3>Need Some Side Dishes?</h3>
+        <h3>Need Some Side Dishes?</h3>
+        <aside id="side-dishes">
             <section>
-                <h3>Mexican Rice</h3>
+                <h4>Mexican Rice</h4>
                     <img src="images/mexican-rice.png" alt="mexican rice">
                     <p>Traditional recipe with a twist.</p>
                     <dl>
@@ -110,7 +110,7 @@
                      </dl>
             </section>
             <section>
-                <h3>Salsa</h3>
+                <h4>Salsa</h4>
                     <img src="images/salsa.png" alt="salsa">
                     <p>Just the right amount of spice.</p>
                     <dl>
@@ -119,7 +119,7 @@
                      </dl>
             </section>
             <section>
-                <h3>Guacamole</h3>
+                <h4>Guacamole</h4>
                     <img src="images/guacamole.png" alt="guacamole">
                     <p>Fresh and healthy.</p>
                     <dl>
@@ -128,7 +128,7 @@
                      </dl>
             </section>
             <section>
-                <h3>Tortillas</h3>
+                <h4>Tortillas</h4>
                     <img src="images/tortillas.png" alt="tortillas">
                     <p>Fresh and healthy.</p>
                     <dl>
@@ -136,7 +136,7 @@
                         <dd>4 of 5 Stars</dd>
                      </dl>
             </section>
-        </section>
+        </aside>
 
         <nav>
             <h2>Main Navigation</h2>
@@ -165,12 +165,20 @@
                     <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855"></path>
                   </svg>Sign In</a></li>
             </ul>
-    
-            <label for="site-search">Search the site:</label>
-            <input type="search" id="site-search" name="q" />
-            <button>Search</button>
-    </main>
+        </nav>
 
+        <form id="search"> 
+            <fieldset>Search</fieldset>
+            <input type="search" placeholder="Find a recipe">
+            <button type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="10" cy="10" r="7" />
+                    <line x1="21" y1="21" x2="15" y2="15" />
+                </svg>
+            </button>
+        </form>
+    
     <footer>
             <h2>Connect</h2>
             <ul id="socialmedia">
@@ -194,7 +202,6 @@
                     <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
                   </svg></a>Tik Tok</li>
             </ul>
-        </nav>
 
         <p><small>Copyright &copy;2022 <br> Taco Cheesington</small></p>
         <img src="images/taco-cheesington.png" alt="mexican food">
