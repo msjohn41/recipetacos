@@ -228,7 +228,43 @@ header p{
 
 /* NAV STYLES */
 
+nav {
+    width: 375px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    z-index:1;
+}
 
+nav ul{
+    text-align: center;
+    transition: max-height .2s ease-out;
+}
+
+nav li{
+    display: block;
+    line-height: 3em;
+}
+
+nav a{
+    color: #eb5428;
+    text-decoration: none;
+    display: block;
+    text-align: centers;
+    font-family: 'Besas Neue';
+    font-weight: bold;
+}
+
+nav img{
+    height: 25px;
+    width: 25px;
+    visibility: hidden;
+}
+
+a:hover, input:hover {
+    background-color: #eb5428;
+    color: #f2f2f2;
+}
 
 
 
