@@ -187,3 +187,9 @@ header p{
 #side-dishes{
     background-color: #7abfbf;
 }
+
+#side-dishes img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
