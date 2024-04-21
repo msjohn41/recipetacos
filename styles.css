@@ -107,14 +107,22 @@ header h1{
 
 menu{
     padding: 5px;
-    display: flex;
-    width: 100%;
+    display: inline-block;
+    margin: auto;
 }
 menu li{
     display: inline-block;
     text-decoration: none;
+    text-align: center;
     list-style: none;
     color: #eb5428;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+}
+
+menu a{
+    display: block;
 }
 
 header img{
@@ -178,18 +186,80 @@ header p{
 
 /* ASIDE STYLES */
 
+#side-dishes{
+    background-color: #7abfbf;
+}
 #aside-h3{
     background-color: #7abfbf;
     text-align: center;
     padding: 10px;
 }
 
-#side-dishes{
+.side-grid{
+    padding: 10px;
     background-color: #7abfbf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.side-img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.side-h4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.side-text{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.side-text dt{
+    padding-right: 10px;
 }
 
 #side-dishes img{
-    padding: 10px;
     width: 100px;
     height: 100px;
+}
+
+
+
+
+
+
+/* FOOTER STYLES*/
+footer{
+    margin: auto;
+}
+
+#social-media ul{
+    display: inline-block;
+}
+
+#social-media li{
+    display: inline-block;
+    text-align: center;
+    color: #eb5428;
+    padding: 10px;
+    font-family: 'Bebas Neue';
+}
+
+#social-media a{
+    display: block;
+}
+footer p{
+    text-align: center;
+}
+
+footer img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
