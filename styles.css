@@ -245,6 +245,7 @@ nav {
     position: fixed;
     top: 0;
     z-index:5;
+    padding-top: 25px;
 }
 nav ul {
     grid-area: hamberger;
