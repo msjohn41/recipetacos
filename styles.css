@@ -416,6 +416,17 @@ footer img{
     nav{
         width: 1280px;
     }
+    menu{
+        width: auto;
+    }
+    menu li{
+        display: block;
+    }
+    #header-grid{
+        display: grid;
+        grid-template-columns: 1fr 4fr 4fr;
+        justify-items: center;
+    }
     #details{
         width: auto;
         background-color: #000;
@@ -423,8 +434,11 @@ footer img{
     }
     #details dl{
         height: 50px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        display: flex;
+        justify-content: center;
+    }
+    #details dd{
+        padding-right: 10px;
     }
     #medium-grid{
         display: grid;
