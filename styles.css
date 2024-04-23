@@ -421,12 +421,10 @@ footer img{
         background-color: #000;
         color: #7abfbf;
     }
-    dl{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
     #details dl{
         height: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
     #medium-grid{
         display: grid;
