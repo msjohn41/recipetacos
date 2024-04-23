@@ -212,9 +212,7 @@ aside a{
     font-size: 20px;
     color: #000;
 }
-aside dl{
-    display: flex;
-}
+
 aside dd{
     visibility: hidden;
 }
@@ -422,6 +420,13 @@ footer img{
         width: auto;
         background-color: #000;
         color: #7abfbf;
+    }
+    dl{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #details dl{
+        height: 50px;
     }
     #medium-grid{
         display: grid;
