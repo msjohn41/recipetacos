@@ -110,8 +110,10 @@ header h1{
 /* MENU STYLES */
 
 menu{
-    display: inline-block;
     margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 menu li{
     display: inline-block;
@@ -236,44 +238,36 @@ aside dd{
 /* NAV STYLES */
 
 nav {
-    grid-area: nav;
+    grid-area: ;
     min-width: 414px;
     background-color: #ffffff;
     box-shadow: 0px 3px 3px #bbb;
     position: fixed;
     top: 0;
     z-index:5;
-    padding-top: 25px;
 }
 nav ul {
-    grid-area: hamberger;
+    grid-area: ;
     padding: 0;
     overflow: hidden;
     list-style: none;
     max-height: 0;
 }
 nav li img {
-    visibility: hidden;
+    display: none;
 }
 nav li a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    text-align: center;
-    color: #eb5428;
-}
-
-nav li a:hover{
-    color: #f2f2f2;
-    background-color: #eb5428;
 }
 nav label {
     cursor: pointer;
     display: inline-block;
     position: relative;
     user-select: none;
-    bottom: 15px;
-    left: 15px;
+    bottom: ____;
+    left: _____;
 }
 label span {
     background-color: #ffffff;
@@ -284,11 +278,11 @@ label span {
     width: 18px;
 }
 nav span {
-    display: block;
-    position: relative;
+    display: _____;
+    position: ______;
  }
 nav label svg {
-    display: block;
+    display: _____;
 }
 label span:before, label span:after {
     background: #ffffff;
@@ -336,7 +330,7 @@ footer h3{
     visibility: hidden;
 }
 #social{
-    display: inline-block;
+    display: flex;
     margin: auto;
 }
 #social li{
@@ -421,6 +415,9 @@ footer img{
     }
     menu li{
         display: block;
+    }
+    header h1{
+        padding-bottom: 10px;
     }
     #header-grid{
         display: grid;
