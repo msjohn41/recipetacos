@@ -76,7 +76,7 @@ h4{
     font-size: 20px;
 }
 
-nav a, nav span, menu li, footer, #social-media{
+nav a, nav span, menu li, footer, #social{
     font-size: 20px;
 }
 
@@ -185,41 +185,50 @@ header p{
 
 /* ASIDE STYLES */
 
-#side-dishes{
+aside{
     background-color: #7abfbf;
 }
-#aside-h3{
+aside h3{
     background-color: #7abfbf;
     text-align: center;
     padding: 10px;
 }
-
-.aside-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+aside h4{
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
 }
-
-.aside-grid h4{
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-.aside-grid dl{
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-.aside-grid img{
-    grid-column-start: 1;
-}
-
-.side-text dt{
-    padding-right: 10px;
-}
-
-#side-dishes img{
+aside img{
     width: 100px;
     height: 100px;
+    
 }
-
+aside a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+aside dl{
+    display: flex;
+}
+aside dd{
+    visibility: hidden;
+}
+.aside-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aside-grid h3{
+    text-align:start;
+    padding-left: 0;
+    padding-top: 0;
+}
+.rating{
+    display: flex;
+}
 
 
 /* NAV STYLES */
@@ -254,10 +263,6 @@ nav li a {
 nav li a:hover{
     color: #f2f2f2;
     background-color: #eb5428;
-}
-[href="#home"]{
-    position: fixed;
-    top: 0;
 }
 nav label {
     cursor: pointer;
@@ -323,27 +328,32 @@ form fieldset{
 footer{
     margin: auto;
 }
-
-#social-media{
-    text-align: center;
+footer h3{
+    visibility: hidden;
 }
-#social-media ul{
+#social{
     display: inline-block;
+    margin: auto;
 }
-
-#social-media li{
+#social li{
     display: inline-block;
+    text-decoration: none;
     text-align: center;
+    list-style: none;
     color: #eb5428;
     padding: 10px;
+    font-size: 16px;
     font-family: 'Bebas Neue';
 }
 
-#social-media a{
+#social a{
     display: block;
+    color: #eb5428;
+    text-decoration: none;
 }
 footer p{
     text-align: center;
+    font-family: 'Bebas Neue';
 }
 
 footer img{
@@ -353,4 +363,8 @@ footer img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+#copyright div{
+    padding: 10px;
+    text-align: center;
 }
