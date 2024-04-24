@@ -238,7 +238,7 @@ aside dd{
 /* NAV STYLES */
 
 nav {
-    grid-area: ;
+    grid-area: auto;
     min-width: 414px;
     background-color: #ffffff;
     box-shadow: 0px 3px 3px #bbb;
@@ -247,11 +247,12 @@ nav {
     z-index:5;
 }
 nav ul {
-    grid-area: ;
+    grid-area: auto;
     padding: 0;
     overflow: hidden;
     list-style: none;
     max-height: 0;
+    text-align: center;
 }
 nav li img {
     display: none;
@@ -266,8 +267,8 @@ nav label {
     display: inline-block;
     position: relative;
     user-select: none;
-    bottom: ____;
-    left: _____;
+    bottom: 0;
+    left: 5px;
 }
 label span {
     background-color: #ffffff;
@@ -278,11 +279,11 @@ label span {
     width: 18px;
 }
 nav span {
-    display: _____;
-    position: ______;
+    display: inline-block;
+    position: relative;
  }
 nav label svg {
-    display: _____;
+    display: inline-block;
 }
 label span:before, label span:after {
     background: #ffffff;
@@ -411,6 +412,7 @@ footer img{
         width: 1280px;
     }
     menu{
+        display: block;
         width: auto;
     }
     menu li{
